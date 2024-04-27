@@ -13,8 +13,22 @@ Dane z formularza są wysyłane na serwer i zapisywane w bazie danych.
  - client
  - server
 
+```diff
+!Przed uruchomieniem klienta oraz serwera trzeba śćągnąć biblioteki opisane w pliku "package.json" polecenim
+```
+
+```
+npm install
+```
+
 Folder "client" zawiera część frontendową projektu.
-Uruchomienie komendą ```npm run dev```
+Uruchomienie komendą 
+```
+npm run dev
+```
 
 Folder "server" zawiera część backendową projektu.
-Uruchomienie komendą ```npm start```
+Uruchomienie komendą 
+```
+npm start
+```
