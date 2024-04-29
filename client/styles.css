@@ -22,20 +22,28 @@
   --medium-weight: 500;
   --semi-bold-weight: 600;
   --bold-weight: 700;
-  --extra-bold-weight: 800; 
+  --extra-bold-weight: 800;
 
   /* COLORS */
   --main-bg-color: rgb(1, 1, 2);
-  --main-color: #A30000;
+  --main-color: #a30000;
   --drak-main-color: #5d1616;
-  --light-main-color: #A94E4E;
+  --light-main-color: #a94e4e;
   --disabled-white-color: rgba(255, 255, 255, 0.6);
-  --white-color: #FFFFFF;
-  --error-color: #F30606;
-  --success-color: #00AC11;
-  --vip-color: #2F50FE;
-  --personal-color: #F1A636;
-  --footer-border-gradient: linear-gradient(var(--main-bg-color) 0%, #850606 22%, #A00707 47%, #FF0B0B 53%, #A00707 62%, #850606 86%, var(--main-bg-color) 100%);
+  --white-color: #ffffff;
+  --error-color: #f30606;
+  --success-color: #00ac11;
+  --vip-color: #2f50fe;
+  --personal-color: #f1a636;
+  --footer-border-gradient: linear-gradient(
+    var(--main-bg-color) 0%,
+    #850606 22%,
+    #a00707 47%,
+    #ff0b0b 53%,
+    #a00707 62%,
+    #850606 86%,
+    var(--main-bg-color) 100%
+  );
 }
 
 body {
@@ -78,14 +86,14 @@ header {
   box-shadow: 0px 10px 20px 10px rgb(1, 1, 2);
 }
 
-.logo { 
+.logo {
   position: relative;
   top: -15px;
 }
 
 .ping-icon {
-  width: 30px; 
-  height: 30px; 
+  width: 30px;
+  height: 30px;
   position: relative;
   top: 14px;
   left: 6px;
@@ -157,7 +165,7 @@ nav {
 /* MAIN SECTION */
 
 #main {
-  background-image: url('./assets/images/main-bg-image.jpeg');
+  background-image: url("./assets/images/main-bg-image.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -333,7 +341,7 @@ nav {
 }
 
 .characteristics-container ul > li::before {
-  content: '';
+  content: "";
   display: block;
   width: 8px;
   height: 8px;
